@@ -341,7 +341,7 @@ function getDataStars(request, config, requestedFields) {
 }
 
 function parseIssueLabel(labels, index) {
-  return labels && labels.length >= index+1 ? labels[index].name : null;
+  return labels && labels.length >= index+1 ? labels[index].name : "";
 }
 
 function parseIssueRow(requestedFields, issue) {

@@ -1,0 +1,26 @@
+{
+  "timeZone": "Europe/Paris",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "OAuth2",
+      "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+      "version": "38",
+      "developmentMode": true
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dataStudio": {
+    "name": "GitHub",
+    "logoUrl": "https://raw.githubusercontent.com/googledatastudio/community-connectors/master/github/logo.png",
+    "company": "Google Data Studio Developer Relations",
+    "companyUrl": "https://developers.google.com/datastudio/",
+    "addonUrl": "https://github.com/googledatastudio/community-connectors/blob/master/github/README.md",
+    "supportUrl": "https://github.com/googledatastudio/community-connectors/issues/new?title\u003dGitHub%20Connector%20Issue",
+    "description": "Get GitHub data for specific repositories.",
+    "sources": ["GITHUB"],
+    "templates": {
+      "default": "1PikgkhyXNpPNmsL5khagMQJZq5zDOANz"
+    }
+  }
+}

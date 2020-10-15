@@ -7,7 +7,7 @@ function getOAuthService() {
   var scriptProps = PropertiesService.getScriptProperties();
   var clientId = scriptProps.getProperty('OAUTH_CLIENT_ID');
   var clientSecret = scriptProps.getProperty('OAUTH_CLIENT_SECRET');
-  
+
   return OAuth2.createService(SERVICE_NAME)
     .setAuthorizationBaseUrl(AUTHORIZATION_BASE_URL)
     .setTokenUrl(TOKEN_URL)
